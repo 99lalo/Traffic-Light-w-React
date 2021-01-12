@@ -11,3 +11,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.green-light{
+    background-color: grey;
+    border-radius: 50%;
+}
+.green-selected{
+    background-color: green;
+    box-shadow: 20px 20px 20px 20px lightgreen;
+    border-radius: 50%;
+}
+.yellow-light{
+    background-color: gray;
+    border-radius: 50%;
+}
+.yellow-selected{
+    background-color: yellow;
+    box-shadow: 20px 20px 20px 20px lightyellow;
+    border-radius: 50%;
+}
+.red-light{
+    background-color: gray;
+    border-radius: 50%;
+    top: 2em;
+}
+.red-selected{
+    background-color: red;
+    box-shadow: 20px 20px 20px 20px lightcoral;
+    border-radius: 50%;
+    top: 2em;
+}
+.post{
+    background-color: rgb(92, 88, 88);
+    height: 40em;
+    width: 20em;
+    border: 1em;
+    border-color: black;
+}
+.post > div{
+    height: 10em;
+    width: 10em;
+    position: relative;
+    margin-top: 2em;
+    margin-left: 4em;
+    top: 2em;
+}
